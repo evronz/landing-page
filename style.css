@@ -131,3 +131,85 @@ button {
   font-size: 18px;
   color: grey;
 }
+
+.third-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: rgb(229, 231, 235);
+}
+
+.quote {
+  width: 900px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.author {
+  width: 900px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1F2937;
+  text-align: right;
+}
+
+.fourth-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.signup-box {
+  background-color: rgb(56, 130, 246);
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 90px;
+  border-radius: 10px;
+}
+
+.main-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color:rgb(249, 250, 248);
+  margin-bottom: 5px;
+}
+
+.secondary-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color:rgb(249, 250, 248);
+  margin-bottom: 5px;
+}
+
+.sign-up {
+  background-color: transparent;
+  color: rgb(249, 250, 248);
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  border: 2px solid rgb(249, 250, 248);
+  padding: 8px 30px;
+  border-radius: 9px;
+}
+
+.footer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31, 41, 55);
+  color: rgb(249, 250, 248);
+}
