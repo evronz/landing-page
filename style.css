@@ -85,3 +85,49 @@ button {
   justify-content: center;
   align-items: center;
 }
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 560px;
+}
+
+.head {
+  width: 940px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: rgb(31, 41, 55);
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.some-info {
+  width: 940px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-container {
+  height: 150px;
+  width: 150px;
+  border: 5px solid rgb(56, 130, 246);
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+.box-info {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: grey;
+}
